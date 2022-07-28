@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Vehicle
+comment1.params=
+comment1.target=Vehicle()
+comment10.params=scanner
+comment10.target=void\ readData(java.util.Scanner)
+comment11.params=
+comment11.target=void\ printDetails()
+comment2.params=
+comment2.target=java.lang.String\ getGroup()
+comment3.params=
+comment3.target=java.lang.String\ getvehID()
+comment4.params=
+comment4.target=java.lang.String\ getRegNo()
+comment5.params=
+comment5.target=java.lang.String\ getMake()
+comment6.params=inputGroup
+comment6.target=void\ setGroup(java.lang.String)
+comment7.params=inputVehID
+comment7.target=void\ setVehID(java.lang.String)
+comment8.params=inputMake
+comment8.target=void\ setMake(java.lang.String)
+comment9.params=inputRegNo
+comment9.target=void\ setRegNo(java.lang.String)
+numComments=12

@@ -1,0 +1,82 @@
+import java.io.*;
+import java.util.*;
+import java.util.Date.*;
+/**
+ * Reservation System for a vehicle hire company. 
+ * @author (Aslam Patel)
+ */
+
+public class Vehicle
+{
+    // Fields types
+    public String group;
+    public String vehID;
+    public String regNo;
+    public String make; 
+    public String model;
+    public Boolean airCon;
+    public double engineSize;
+    public String fuelType;
+    public String gearbox; 
+    public String transmisson;
+    public int mileage;
+    public Date dateFirstRegistered;
+    
+
+     public Vehicle()
+      {
+        //group = groupOfCar;
+        //vehID = vehIDofCar;
+        //regNo = regNoOfCar;
+        //make = makeOfCar;
+      }
+  
+    public void readData(Scanner scanner)
+    {
+        while (scanner.hasNext())
+      {
+          vehID = scanner.next();
+          regNo = scanner.next();
+          make = scanner.next();
+          group = scanner.next();
+          model = scanner.next();
+          airCon = scanner.nextBoolean();
+          engineSize = scanner.nextDouble();
+          fuelType = scanner.next();
+          gearbox = scanner.next();
+          transmisson = scanner.next();
+          mileage = scanner.nextInt();
+          dateFirstRegistered = scanner.next();
+        }
+    }
+  
+                public String getGroup()
+              {
+                  return group;
+              }
+              
+              public String getVehID()
+              {
+                  return vehID;
+              }
+              
+              public String getregNo()
+              {
+                  return regNo;
+              }
+              
+              public String getMake()
+              {
+                  return make;
+              }
+            
+              public void printDetails()
+              {
+                  System.out.println("Group: "+group+".");
+                  System.out.println("vehicle ID: "+vehID+".");
+                  System.out.println("Reg No:"+regNo+".");
+                  System.out.println("Make:"+make+".");
+                  
+      }
+  
+}
